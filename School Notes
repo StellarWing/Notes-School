@@ -1,0 +1,54 @@
+Notes
+
+January 17th - While Loops
+
+Loops are structures that allow a program to repeat code. Use loops to automate tasks. 
+while(condition) {
+//code
+}
+A while loop repeats the code inside the braces over and over again, as long as the condition is true. Watch out for infinite loops, 
+which are loops with conditions that are never become false. 
+
+Example of infinite loop: 
+int i = 0;
+while(i < 10) {
+//code
+} 
+
+Solution to example:
+int i = 0;
+while(i < 10) {
+//code
+i++;  //can use i + 1; too, this is what makes the code not infinite
+}
+
+Example #2 of infinite loop:
+while (i != 10) { //!= means not equal to
+//code;
+i += 3; //can use i = i + 3;
+} //the integer i can never reach the number 10, so therefore this code is always true since i never reach 10 and stop the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
