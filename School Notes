@@ -28,7 +28,7 @@ while (i != 10) { //!= means not equal to
 i += 3; //can use i = i + 3;
 } //the integer i can never reach the number 10, so therefore this code is always true since i never reach 10 and stop the code
 
-
+When doing the collision, to detect it, add the sum of the radius from both the paddle and the circle
 
 
 
